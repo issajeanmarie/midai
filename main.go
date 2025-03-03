@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"github.com/issajeanmarie/midai/helpers"
+	"github.com/issajeanmarie/midai/types"
 )
 
 func main() {
-	fmt.Println("Hello world")
+	var todos types.Todos
+	helpers.InitiateApp(todos)
 }
